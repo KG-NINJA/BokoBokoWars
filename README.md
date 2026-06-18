@@ -40,7 +40,7 @@ The soundtrack is an original two-voice martial loop synthesized with Web Audio.
 
 Hex Sorcerers are fragile 3 HP enemy casters with four-tile range. Their spells deal light damage and have a 2% chance per hit to permanently transform the target into a frog. Frog units remain controllable but are reduced to 1 attack, 0 defense, 0.7 speed, and melee range.
 
-The AI strategist button is an optional browser-only commentary feature. When Chrome Built-in AI `LanguageModel` is available, it asks for a short Japanese strategist line using only compact battle context. Unsupported browsers automatically use rule-based comments. AI output never changes combat, movement, win/loss, rewards, or saves.
+The AI strategist button is an optional browser-only commentary feature. When Chrome Built-in AI `LanguageModel` or `ai.languageModel` is available and already ready locally, it asks for a short Japanese strategist line using only compact battle context. Unsupported browsers or not-yet-downloaded models automatically use rule-based comments. AI output never changes combat, movement, win/loss, rewards, or saves.
 
 Destroy the fortress or defeat its commander to win. The battle is lost if the King dies.
 
